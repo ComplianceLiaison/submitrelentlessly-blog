@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>We're Streamlining the Submission Process</title>
+  <style>
+    body {
+      font-family: system-ui, sans-serif;
+      line-height: 1.6;
+      margin: 0;
+      padding: 0;
+      color: #1f2736;
+      background-color: #fffaf2;
+    }
+    h1, h2, h3 {
+      color: #a00000;
+      margin-top: 2.5rem;
+    }
+    .site-header {
+      background-color: #fffaf2;
+      border-bottom: 2px solid #c00000;
+      padding: 1rem 2rem;
+      margin-bottom: 2rem;
+    }
+    .header-content {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items: center;
+      gap: 1rem;
+    }
+    .site-logo {
+      height: 64px;
+      max-width: 64px;
+    }
+    .site-nav {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1rem;
+      align-items: center;
+      font-weight: bold;
+    }
+    .site-nav a {
+      color: #1f2736;
+      text-decoration: none;
+      font-size: 1rem;
+    }
+    .site-nav a:hover {
+      color: #c00000;
+    }
+    .content-wrapper {
+      max-width: 720px;
+      margin: 0 auto;
+      padding: 0 1rem 4rem;
+    }
+    .blog-header {
+      margin-bottom: 3rem;
+    }
+    .blog-header h1 {
+      font-size: 2.5rem;
+      font-weight: 800;
+      color: #a00000;
+      margin-bottom: 0.5rem;
+    }
+    .blog-header p {
+      font-size: 1rem;
+      color: #444;
+    }
+    .blog-navigation {
+      margin-top: 3rem;
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 1rem;
+    }
+    .button {
+      padding: 1rem 1.5rem;
+      border: 2px solid #c00000;
+      border-radius: 999px;
+      font-weight: bold;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 1rem;
+      background: transparent;
+      color: #c00000;
+    }
+    .button:hover {
+      background: #c00000;
+      color: white;
+    }
+    .red-pill-button {
+      padding: 1rem 1.5rem;
+      border: 2px solid #c00000;
+      border-radius: 999px;
+      font-weight: bold;
+      text-decoration: none;
+      font-size: 1rem;
+      background: #c00000;
+      color: white;
+      display: inline-block;
+    }
+    .red-pill-button:hover {
+      background: #a00000;
+      border-color: #a00000;
+    }
+  </style>
+</head>
+<body>
+  <header class="site-header">
+    <div class="header-content">
+      <a href="https://www.submitrelentlessly.org">
+        <img src="https://images.squarespace-cdn.com/content/680f9a0e609678126af6e639/c354c2d7-5f09-4c52-9ac6-ea6af8021945/Badge+Logos+with+Pen+Nib+Icons.jpg" alt="Submit Relentlessly Logo" class="site-logo" />
+      </a>
+      <nav class="site-nav">
+        <a href="https://www.submitrelentlessly.org/browse-reform-categories">🔍 Explore Reforms</a>
+        <a href="https://www.submitrelentlessly.org/fieldguide">💪 How-To & Tools</a>
+        <a href="https://www.submitrelentlessly.org/-manifesto">⚙️ How It Works</a>
+        <a href="https://complianceliaison.github.io/submitrelentlessly-blog/" style="text-decoration: underline;">📣 Blog</a>
+        <a href="https://www.submitrelentlessly.org/about">ℹ️ About</a>
+      </nav>
+      <a href="https://www.submitrelentlessly.org/sortable-index" class="red-pill-button">Submit Relentlessly</a>
+    </div>
+  </header>
+
+  <div class="content-wrapper">
+    <article class="blog-header">
+      <h1>We're Streamlining the Submission Process</h1>
+      <p><em>Written by Compliance Liaison · May 2, 2025</em></p>
+    </article>
+
+    <p><strong>Thanks for Your Feedback!</strong></p>
+
+    <p>We’ve heard your comments loud and clear: you want faster access, easier copying, and fewer barriers. So we’re working on it.</p>
+
+    <p>Starting now, you’ll notice that you can copy and paste submissions directly from the website — no PDFs, no downloads, no formatting drama. Just click, copy, and submit.</p>
+
+    <p>As we continue releasing new content, we’ll also be rolling out site-wide updates over the next few days. If something doesn’t look quite perfect yet… that’s because it isn’t. But we’re getting there. Thanks for sticking with us while we build this out and upload more ready-to-go deregulation suggestions. We appreciate your patience—and your support—as we keep refining things behind the scenes.</p>
+
+    <p>Our goal is simple: provide as many strong, smart, ready-to-submit ideas as possible — so you can copy / paste / submit / repeat.</p>
+
+    <p><strong>Let’s keep pushing.</strong></p>
+
+    <p>Compliance Liaison<br>
+    Department of Deregulation</p>
+
+    <nav class="blog-navigation">
+      <a href="./got-3-minutes.html" class="button">⬅️ Previous Post</a>
+      <a href="./Bulletins.html" class="button">🗂 Back to All Blogs</a>
+      <a href="./still-relentless.html" class="button">Next Post ➡️</a>
+    </nav>
+
+    <img src="https://images.squarespace-cdn.com/content/680f9a0e609678126af6e639/1746193188957-6EBEXW10GB9LXSHBI81B/WIP.png?content-type=image%2Fpng" 
+         alt="Work in progress sign with construction elements"
+         style="width: 100%; max-width: 640px; border-radius: 8px; margin-top: 2rem;" />
+  </div>
+
+  <footer class="site-footer">
+    <p class="footer-tagline"><strong>We respect your privacy like it’s the last functional branch of government.</strong></p>
+    <h1 class="footer-title">SUBMIT RELENTLESSLY.</h1>
+    <p class="footer-contact">
+      <a href="mailto:submitrelentlessly@gmail.com">submitrelentlessly@gmail.com</a> · 
+      <a href="https://bsky.social" target="_blank" rel="noopener">bsky.social</a>
+    </p>
+    <nav class="footer-links">
+      <a href="https://www.submitrelentlessly.org/privacy-terms-of-service">Privacy Policy</a>
+      <a href="https://www.submitrelentlessly.org/privacy-terms-of-service">Terms of Service</a>
+      <span>Cookie Preferences</span>
+    </nav>
+  </footer>
+</body>
+</html>
