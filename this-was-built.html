@@ -1,4 +1,40 @@
 <!DOCTYPE html>
+.blog-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #f6f6f6;
+  padding: 1rem 2rem;
+  border-bottom: 3px solid #c00000;
+  margin-bottom: 2rem;
+}
+
+.site-title {
+  font-size: 1.5rem;
+  color: #c00000;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.site-nav a {
+  margin-left: 1rem;
+  text-decoration: none;
+  color: #1f2736;
+  font-weight: bold;
+}
+
+.site-nav a:hover {
+  color: #c00000;
+}
+<header class="blog-header">
+  <a href="https://www.submitrelentlessly.org" class="site-title">Submit Relentlessly</a>
+  <nav class="site-nav">
+    <a href="/toolz">Timelines</a>
+    <a href="/sortable-index">Reform Index</a>
+    <a href="/about">About</a>
+  </nav>
+</header>
+
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
