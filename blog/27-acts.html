@@ -15,9 +15,9 @@
 
 .header-content {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
-  flex-wrap: wrap;
   gap: 1rem;
 }
 
@@ -95,14 +95,23 @@
       background: #c00000;
       color: white;
     }
-    .red-pill-button {
-      background: #c00000;
-      color: white;
-    }
-    .red-pill-button:hover {
-      background: #a00000;
-      border-color: #a00000;
-    }
+.red-pill-button {
+  padding: 1rem 1.5rem;
+  border: 2px solid #c00000;
+  border-radius: 999px;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 1rem;
+  background: #c00000;
+  color: white;
+  display: inline-block;
+}
+
+.red-pill-button:hover {
+  background: #a00000;
+  border-color: #a00000;
+}
+
   </style>
 </head>
 <body>
