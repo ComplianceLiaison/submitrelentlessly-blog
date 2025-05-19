@@ -31,31 +31,150 @@
     .blog-entry a:hover {
       text-decoration: underline;
     }
+    .site-header {
+      background-color: #fffaf2;
+      border-bottom: 2px solid #c00000;
+      padding: 1rem 2rem;
+      margin-bottom: 2rem;
+    }
+    .header-content {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items: center;
+      gap: 1rem;
+    }
+    .site-logo {
+      height: 64px;
+      max-width: 64px;
+    }
+    .site-nav {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1rem;
+      align-items: center;
+      font-weight: bold;
+    }
+    .site-nav a {
+      color: #1f2736;
+      text-decoration: none;
+      font-size: 1rem;
+    }
+    .site-nav a:hover {
+      color: #c00000;
+    }
+    .site-footer {
+      text-align: center;
+      padding: 4rem 1rem 2rem;
+      background-color: #fffaf2;
+      font-family: system-ui, sans-serif;
+    }
+    .footer-tagline {
+      color: #1f2736;
+      font-size: 1rem;
+      margin-bottom: 1rem;
+    }
+    .footer-title {
+      font-size: 2.75rem;
+      font-weight: 800;
+      margin: 0.5rem 0 1rem;
+      letter-spacing: -0.03em;
+    }
+    .footer-contact {
+      color: #c00000;
+      font-size: 1rem;
+      margin-bottom: 2rem;
+    }
+    .footer-contact a {
+      color: #c00000;
+      text-decoration: none;
+    }
+    .footer-contact a:hover {
+      text-decoration: underline;
+    }
+    .footer-links {
+      display: flex;
+      justify-content: center;
+      gap: 2rem;
+      flex-wrap: wrap;
+      font-size: 0.9rem;
+      color: #555;
+    }
+    .footer-links a {
+      color: #999;
+      text-decoration: none;
+    }
+    .footer-links a:hover {
+      text-decoration: underline;
+      color: #1f2736;
+    }
   </style>
 </head>
 <body>
-  <header class="site-header">...same header as your other pages...</header>
+  <header class="site-header">
+    <div class="header-content">
+      <a href="https://www.submitrelentlessly.org">
+        <img src="https://images.squarespace-cdn.com/content/680f9a0e609678126af6e639/c354c2d7-5f09-4c52-9ac6-ea6af8021945/Badge+Logos+with+Pen+Nib+Icons.jpg?content-type=image%2Fjpeg" alt="Submit Relentlessly Logo" class="site-logo" />
+      </a>
+      <nav class="site-nav">
+        <a href="https://www.submitrelentlessly.org/browse-reform-categories">🔍 Explore Reforms</a>
+        <a href="https://www.submitrelentlessly.org/fieldguide">💪 How-To & Tools</a>
+        <a href="https://www.submitrelentlessly.org/-manifesto">⚙️ How It Works</a>
+        <a href="https://complianceliaison.github.io/submitrelentlessly-blog/" style="text-decoration: underline;">📣 Blog</a>
+        <a href="https://www.submitrelentlessly.org/about">ℹ️ About</a>
+      </nav>
+      <a href="https://www.submitrelentlessly.org/sortable-index" class="red-pill-button">Submit Relentlessly</a>
+    </div>
+  </header>
 
   <main class="blog-index">
     <h1 style="font-size: 2.5rem; color: #a00000;">📚 Submit Relentlessly Blog</h1>
     <p>Explore our latest posts, essays, and updates.</p>
 
     <div class="blog-entry">
-      <h2><a href="/blog/a-better-system.html">A Better System Is Possible—And Within Reach</a></h2>
-      <p><em>Written by Compliance Liaison · May 14, 2025</em></p>
-      <p>Why we’re fighting the system that was built to fail us—and how we’re dismantling it one form at a time.</p>
+      <h2><a href="a-better-system.html">A Better System Is Possible—And Within Reach</a></h2>
+      <p><em>Written by Compliance Liaison · May 18, 2025</em></p>
     </div>
 
     <div class="blog-entry">
-      <h2><a href="/blog/risk-management-strategy.html">Risk Management for IVDs & Devices: Strategy, Not Burden</a></h2>
-      <p><em>Written by Compliance Liaison · March 2025</em></p>
-      <p>Turn risk compliance into a competitive advantage—not a checkbox.</p>
+      <h2><a href="got-3-minutes.html">Got 3 Minutes?</a></h2>
+      <p><em>Written by Compliance Liaison · May 1, 2025</em></p>
     </div>
 
-    <!-- Add more entries manually or script it from JSON/markdown if you go dynamic -->
+    <div class="blog-entry">
+      <h2><a href="27-acts-of-resistance.html">27 Tiny Acts of Resistance (Each Under 3 Minutes)</a></h2>
+      <p><em>Written by Compliance Liaison · April 30, 2025</em></p>
+    </div>
+
+    <div class="blog-entry">
+      <h2><a href="first-batch-available.html">First Batch Available</a></h2>
+      <p><em>Written by Compliance Liaison · April 29, 2025</em></p>
+    </div>
+
+    <div class="blog-entry">
+      <h2><a href="toolkit-drops-tonight.html">The Toolkit Drops Tonight. Share It Loud.</a></h2>
+      <p><em>Written by Compliance Liaison · April 29, 2025</em></p>
+    </div>
+
+    <div class="blog-entry">
+      <h2><a href="the-manifesto.html">The Manifesto</a></h2>
+      <p><em>Written by Compliance Liaison · April 28, 2025</em></p>
+    </div>
 
   </main>
 
-  <footer class="site-footer">...same footer...</footer>
+  <footer class="site-footer">
+    <p class="footer-tagline"><strong>We respect your privacy like it’s the last functional branch of government.</strong></p>
+    <h1 class="footer-title">SUBMIT RELENTLESSLY.</h1>
+    <p class="footer-contact">
+      <a href="mailto:submitrelentlessly@gmail.com">submitrelentlessly@gmail.com</a> · 
+      <a href="https://bsky.social" target="_blank" rel="noopener">bsky.social</a>
+    </p>
+    <nav class="footer-links">
+      <a href="https://www.submitrelentlessly.org/privacy-terms-of-service">Privacy Policy</a>
+      <a href="https://www.submitrelentlessly.org/privacy-terms-of-service">Terms of Service</a>
+      <span>Cookie Preferences</span>
+    </nav>
+  </footer>
 </body>
 </html>
