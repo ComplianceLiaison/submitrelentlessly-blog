@@ -35,8 +35,8 @@ h1, h2, h3 {
 }
 
 .site-logo {
-  height: 64px;
-  max-width: 64px;
+  height: 80px;
+  max-width: 80px;
 }
 
 .site-nav {
@@ -149,4 +149,12 @@ h1, h2, h3 {
   justify-content: space-between;
   flex-wrap: wrap;
   gap: 1rem;
+}
+
+/* ========== RESPONSIVE LOGO ========== */
+@media (max-width: 640px) {
+  .site-logo {
+    height: 56px;
+    max-width: 56px;
+  }
 }
