@@ -1,3 +1,4 @@
+/* Base layout */
 body {
   margin: 0;
   padding: 0;
@@ -8,6 +9,7 @@ body {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
+  transition: background 0.3s ease, color 0.3s ease;
 }
 
 .starry-overlay {
@@ -21,12 +23,19 @@ body {
   pointer-events: none;
 }
 
+/* Future message content */
 #future-message {
   font-size: 1.5rem;
   line-height: 2;
   font-weight: 500;
   margin-bottom: 2rem;
   text-align: center;
+  opacity: 0;
+  animation: fadeIn 1.5s ease forwards;
+}
+
+@keyframes fadeIn {
+  to { opacity: 1; }
 }
 
 #another-message {
@@ -38,9 +47,46 @@ body {
   color: white;
   font-weight: bold;
   cursor: pointer;
+  transition: background 0.3s ease, color 0.3s ease;
 }
 
 #another-message:hover {
   background: white;
   color: #3a0066;
+}
+
+/* Responsive tweaks */
+@media (max-width: 600px) {
+  #future-message {
+    font-size: 1.25rem;
+    padding: 0 1rem;
+  }
+
+  #another-message {
+    width: 100%;
+    max-width: 20rem;
+    font-size: 1rem;
+  }
+}
+
+/* Optional dark mode compatibility */
+@media (prefers-color-scheme: dark) {
+  body {
+    background: radial-gradient(ellipse at top, #1a002e, #0a0015 85%);
+    color: #e0e0ff;
+  }
+
+  #another-message {
+    border-color: #ccc;
+    color: #ccc;
+  }
+
+  #another-message:hover {
+    background: #ccc;
+    color: #1a002e;
+  }
+
+  .starry-overlay {
+    opacity: 0.07;
+  }
 }
