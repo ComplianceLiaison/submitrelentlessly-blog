@@ -1,5 +1,4 @@
- <script>
-  const messages = [
+   const messages = [
     "We fixed the courts. We raised the floor. We got better childcare and fewer billionaires.",
     "People don’t go bankrupt over insulin here. Weird, right?",
     "We unfucked campaign finance. Voting’s easy. Oligarchs are nervous.",
@@ -85,4 +84,3 @@
       if (dateEl) dateEl.textContent = getRandomFutureDate();
     });
   }
-</script>
