@@ -89,6 +89,15 @@ h1, h2, h3 {
   border-color: #a00000;
 }
 
+/* ========== BLOG NAVIGATION ========== */
+.blog-navigation {
+  margin-top: 3rem;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
 /* ========== FOOTER ========== */
 .site-footer {
   text-align: center;
@@ -140,15 +149,6 @@ h1, h2, h3 {
 
 .footer-links a:hover {
   color: #1f2736;
-}
-
-/* ========== BLOG NAVIGATION ========== */
-.blog-navigation {
-  margin-top: 3rem;
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  gap: 1rem;
 }
 
 /* ========== RESPONSIVE LOGO ========== */
