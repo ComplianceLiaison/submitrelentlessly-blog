@@ -1,8 +1,46 @@
-   .footer-links {
-      display: flex;
-      justify-content: center;
-      gap: 2rem;
-      flex-wrap: wrap;
-      font-size: 0.9rem;
-      color: #555;
-    }
+body {
+  margin: 0;
+  padding: 0;
+  background: radial-gradient(ellipse at top, #3a0066, #1a002e 80%);
+  background-attachment: fixed;
+  color: white;
+  font-family: system-ui, sans-serif;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.starry-overlay {
+  background-image: radial-gradient(white 1px, transparent 1px);
+  background-size: 4px 4px;
+  background-repeat: repeat;
+  opacity: 0.05;
+  position: fixed;
+  top: 0; left: 0; right: 0; bottom: 0;
+  z-index: 0;
+  pointer-events: none;
+}
+
+#future-message {
+  font-size: 1.5rem;
+  line-height: 2;
+  font-weight: 500;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+#another-message {
+  padding: 1rem 1.5rem;
+  font-size: 1rem;
+  border-radius: 999px;
+  border: 2px solid white;
+  background: transparent;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+#another-message:hover {
+  background: white;
+  color: #3a0066;
+}
