@@ -1,210 +1,87 @@
+---
+layout: none
+---
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>27 Tiny Acts of Resistance (Each Under 3 Minutes)</title>
-  <link rel="stylesheet" href="/styles.css" />
-  <style>
-   .site-header {
-  background-color: #fffaf2;
-  border-bottom: 2px solid #c00000;
-  padding: 1rem 2rem;
-  margin-bottom: 2rem;
-}
-
-.header-content {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  align-items: center;
-  gap: 1rem;
-}
-
-.site-logo {
-  height: 64px;
-  max-width: 64px;
-}
-
-.site-nav {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 1rem;
-  align-items: center;
-  font-weight: bold;
-}
-
-.site-nav a {
-  color: #1f2736;
-  text-decoration: none;
-  font-size: 1rem;
-}
-
-.site-nav a:hover {
-  color: #c00000;
-}
- body {
-      font-family: system-ui, sans-serif;
-      line-height: 1.6;
-      margin: 0;
-      padding: 0;
-      color: #1f2736;
-      background-color: #fffaf2;
-    }
-    h1, h2, h3 {
-      color: #a00000;
-      margin-top: 2.5rem;
-    }
-    .content-wrapper {
-      max-width: 720px;
-      margin: 0 auto;
-      padding: 0 1rem 4rem;
-    }
-    .blog-header {
-      margin-bottom: 3rem;
-    }
-    .blog-header h1 {
-      font-size: 2.5rem;
-      font-weight: 800;
-      color: #a00000;
-      margin-bottom: 0.5rem;
-    }
-    .blog-header p {
-      font-size: 1rem;
-      color: #444;
-    }
-    .blog-navigation {
-      margin-top: 3rem;
-      display: flex;
-      justify-content: space-between;
-      flex-wrap: wrap;
-      gap: 1rem;
-    }
-    .button {
-      padding: 1rem 1.5rem;
-      border: 2px solid #c00000;
-      border-radius: 999px;
-      font-weight: bold;
-      text-decoration: none;
-      display: inline-block;
-      font-size: 1rem;
-      background: transparent;
-      color: #c00000;
-    }
-    .button:hover {
-      background: #c00000;
-      color: white;
-    }
-.red-pill-button {
-  padding: 1rem 1.5rem;
-  border: 2px solid #c00000;
-  border-radius: 999px;
-  font-weight: bold;
-  text-decoration: none;
-  font-size: 1rem;
-  background: #c00000;
-  color: white;
-  display: inline-block;
-}
-
-.red-pill-button:hover {
-  background: #a00000;
-  border-color: #a00000;
-}
-
-  </style>
+  <title>{{ page.title }}</title>
+  <link rel="stylesheet" href="{{ site.baseurl }}/assets/styles.css" />
 </head>
 <body>
-  <header class="site-header">
-  <div class="header-content">
-    <a href="https://www.submitrelentlessly.org">
-      <img src="https://images.squarespace-cdn.com/content/680f9a0e609678126af6e639/c354c2d7-5f09-4c52-9ac6-ea6af8021945/Badge+Logos+with+Pen+Nib+Icons.jpg?content-type=image%2Fjpeg" alt="Submit Relentlessly Logo" class="site-logo" />
-    </a>
-    <nav class="site-nav">
-      <a href="https://www.submitrelentlessly.org/browse-reform-categories">🔍 Explore Reforms</a>
-      <a href="https://www.submitrelentlessly.org/fieldguide">💪 How-To & Tools</a>
-      <a href="https://www.submitrelentlessly.org/-manifesto">⚙️ How It Works</a>
-      <a href="https://complianceliaison.github.io/submitrelentlessly-blog/" style="text-decoration: underline;">📣 Blog</a>
-      <a href="https://www.submitrelentlessly.org/about">ℹ️ About</a>
-    </nav>
-    <a href="https://www.submitrelentlessly.org/sortable-index" class="red-pill-button">Submit Relentlessly</a>
-  </div>
-</header>
 
-  <div class="content-wrapper">
-    <article class="blog-header">
-      <h1>27 Tiny Acts of Resistance (Each Under 3 Minutes)</h1>
-      <p><em>Written by Compliance Liaison · April 30, 2025</em></p>
-    </article>
+{% include header.html %}
 
-    <img src="https://images.squarespace-cdn.com/content/680f9a0e609678126af6e639/1746032507751-LNG8K74T5YGZ5PJ3ZQS6/noise+over+silence2.jpg?content-type=image%2Fjpeg" alt="Noise Over Silence" style="width:100%; margin-bottom:2rem;" />
+<main class="content-wrapper">
+  <article class="blog-header">
+    <h1>{{ page.title }}</h1>
+    <p><em>{{ page.date | date: "%B %-d, %Y" }}</em></p>
+  </article>
 
-    <p><strong>Let’s be real—regulatory engagement doesn’t usually make the cut on your afternoon to-do list. But it should.</strong></p>
+  <!-- Begin post content -->
+  <h1>27 Tiny Acts of Resistance (Each Under 3 Minutes)</h1>
+  <p><em>Written by Compliance Liaison · April 30, 2025</em></p>
 
-    <p>Because right now, corporations and lobbyists are flooding the deregulation portals with carefully worded suggestions to dismantle public protections in the name of “efficiency.” And if we don’t push back—clearly, deliberately, and relentlessly—they win by default.</p>
+  <img src="https://images.squarespace-cdn.com/content/680f9a0e609678126af6e639/1746032507751-LNG8K74T5YGZ5PJ3ZQS6/noise+over+silence2.jpg?content-type=image%2Fjpeg" alt="Noise Over Silence" style="width:100%; margin-bottom:2rem;" />
 
-    <p>That’s where the <strong>Operational Toolkit</strong> comes in.</p>
+  <p><strong>Let’s be real—regulatory engagement doesn’t usually make the cut on your afternoon to-do list. But it should.</strong></p>
 
-    <p>There are 27 published entries—fully written, formatted, and CFR-cited. All you have to do is copy, paste, and click submit. Each one takes <strong>less than 3 minutes</strong>.</p>
+  <p>Because right now, corporations and lobbyists are flooding the deregulation portals with carefully worded suggestions to dismantle public protections in the name of “efficiency.” And if we don’t push back—clearly, deliberately, and relentlessly—they win by default.</p>
 
-    <p>Doing all 27? That’s under 90 minutes.</p>
+  <p>That’s where the <strong>Operational Toolkit</strong> comes in.</p>
 
-    <h3>That’s Less Time Than…</h3>
-    <ul>
-      <li>Sitting through a pointless Zoom meeting.</li>
-      <li>Finding where that one Google Doc lives.</li>
-      <li>Doomscrolling your way into another headache.</li>
-      <li>Bingeing one episode of a show you’ll regret starting.</li>
-      <li>Congress spends naming a post office.</li>
-      <li>One Supreme Court hearing that rewrites your bodily autonomy.</li>
-      <li>A corporate webinar on “resilience” during systemic collapse.</li>
-      <li>Explaining to your family what your job actually is.</li>
-      <li>Most meetings about improving efficiency.</li>
-      <li>The time it took for your rights to get rolled back.</li>
-      <li>Decoding your company’s internal compliance training while crying into your lukewarm coffee.</li>
-      <li>Trying to cancel a subscription you forgot you had.</li>
-      <li>A Sunday scroll through Instagram.</li>
-      <li>Arguing with a bot on Reddit about late-stage capitalism.</li>
-      <li>Making a complicated coffee order and waiting for it.</li>
-      <li>Assembling IKEA furniture (and more likely to improve the world).</li>
-      <li>Waiting on hold with the IRS, only to get transferred to another queue.</li>
-      <li>The rollback of 40 years of environmental protections.</li>
-      <li>Figuring out which “final interim revised draft” is actually final.</li>
-      <li>A billionaire’s quarterly tax planning session.</li>
-      <li>Debating whether you should do something.</li>
-    </ul>
+  <p>There are 27 published entries—fully written, formatted, and CFR-cited. All you have to do is copy, paste, and click submit. Each one takes <strong>less than 3 minutes</strong>.</p>
 
-    <p>The Toolkit is built to speak the system’s language—clean, coded, and CFR-linked. These are real submissions, formatted to be accepted by the very bureaucracies we’re trying to hold accountable.</p>
+  <p>Doing all 27? That’s under 90 minutes.</p>
 
-    <p><strong>This is malicious compliance.</strong></p>
+  <h3>That’s Less Time Than…</h3>
+  <ul>
+    <li>Sitting through a pointless Zoom meeting.</li>
+    <li>Finding where that one Google Doc lives.</li>
+    <li>Doomscrolling your way into another headache.</li>
+    <li>Bingeing one episode of a show you’ll regret starting.</li>
+    <li>Congress spends naming a post office.</li>
+    <li>One Supreme Court hearing that rewrites your bodily autonomy.</li>
+    <li>A corporate webinar on “resilience” during systemic collapse.</li>
+    <li>Explaining to your family what your job actually is.</li>
+    <li>Most meetings about improving efficiency.</li>
+    <li>The time it took for your rights to get rolled back.</li>
+    <li>Decoding your company’s internal compliance training while crying into your lukewarm coffee.</li>
+    <li>Trying to cancel a subscription you forgot you had.</li>
+    <li>A Sunday scroll through Instagram.</li>
+    <li>Arguing with a bot on Reddit about late-stage capitalism.</li>
+    <li>Making a complicated coffee order and waiting for it.</li>
+    <li>Assembling IKEA furniture (and more likely to improve the world).</li>
+    <li>Waiting on hold with the IRS, only to get transferred to another queue.</li>
+    <li>The rollback of 40 years of environmental protections.</li>
+    <li>Figuring out which “final interim revised draft” is actually final.</li>
+    <li>A billionaire’s quarterly tax planning session.</li>
+    <li>Debating whether you should do something.</li>
+  </ul>
 
-    <p>They’re betting we’ll be too tired to act. Joke’s on them—we’re tired AND tactical.</p>
+  <p>The Toolkit is built to speak the system’s language—clean, coded, and CFR-linked. These are real submissions, formatted to be accepted by the very bureaucracies we’re trying to hold accountable.</p>
 
-    <p>A few minutes of deliberate action today might be the only thing standing between us and decades of deregulation disguised as “common sense.”</p>
+  <p><strong>This is malicious compliance.</strong></p>
 
-    <p>So take 3 minutes. Then take another. And another. Submit relentlessly.</p>
+  <p>They’re betting we’ll be too tired to act. Joke’s on them—we’re tired AND tactical.</p>
 
-    <p><em>Compliance Liaison, Department of Deregulation</em></p>
+  <p>A few minutes of deliberate action today might be the only thing standing between us and decades of deregulation disguised as “common sense.”</p>
 
-    <nav class="blog-navigation">
-     <a href="./first-batch.html" class="button">Previous Post</a>
-      <a href="./Bulletins.html" class="button">⬅️ Back to All Blogs</a>
-      <a href="./got-3-minutes.html" class="button">Next Post</a>
-    </nav>
-  </div>
+  <p>So take 3 minutes. Then take another. And another. Submit relentlessly.</p>
 
- <footer class="site-footer">
-  <p class="footer-tagline"><strong>We respect your privacy like it’s the last functional branch of government.</strong></p>
-  <h1 class="footer-title">SUBMIT RELENTLESSLY.</h1>
-  <p class="footer-contact">
-    <a href="mailto:submitrelentlessly@gmail.com">submitrelentlessly@gmail.com</a> · 
-    <a href="https://bsky.social" target="_blank" rel="noopener">bsky.social</a>
-  </p>
-  <nav class="footer-links">
-    <a href="https://www.submitrelentlessly.org/privacy-terms-of-service">Privacy Policy</a>
-    <a href="https://www.submitrelentlessly.org/privacy-terms-of-service">Terms of Service</a>
-    <span>Cookie Preferences</span>
+  <p><em>Compliance Liaison, Department of Deregulation</em></p>
+
+  <nav class="blog-navigation">
+    <a href="{{ site.baseurl }}/blog/first-batch.html" class="button">⬅️ Previous Post</a>
+    <a href="{{ site.baseurl }}/blog/Bulletins.html" class="button">🗂 Back to All Blogs</a>
+    <a href="{{ site.baseurl }}/blog/got-3-minutes.html" class="button">Next Post ➡️</a>
   </nav>
-</footer>
+  <!-- End post content -->
+</main>
+
+{% include footer.html %}
+
 </body>
 </html>
