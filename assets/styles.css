@@ -158,3 +158,47 @@ h1, h2, h3 {
     max-width: 56px;
   }
 }
+
+/* ========== BLOG ARCHIVE ========== */
+.blog-index {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 2rem 1rem 4rem;
+}
+
+.blog-entry {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+  margin-bottom: 2.5rem;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 1rem;
+}
+
+.blog-thumb {
+  width: 96px;
+  height: auto;
+  border-radius: 6px;
+  flex-shrink: 0;
+}
+
+.blog-entry h2 {
+  margin: 0 0 0.5rem;
+  color: #a00000;
+}
+
+.blog-entry p {
+  margin: 0 0 0.5rem;
+  color: #444;
+}
+
+.blog-entry a {
+  font-weight: bold;
+  text-decoration: none;
+  color: #c00000;
+}
+
+.blog-entry a:hover {
+  text-decoration: underline;
+}
+
