@@ -1,210 +1,96 @@
+---
+layout: none
+title: "Oligarchs Hate This One Weird Trick"
+date: 2025-05-05
+---
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Oligarchs Hate This One Weird Trick</title>
-  <style>
-    body {
-      font-family: system-ui, sans-serif;
-      line-height: 1.6;
-      margin: 0;
-      padding: 0;
-      color: #1f2736;
-      background-color: #fffaf2;
-    }
-    h1, h2, h3 {
-      color: #a00000;
-      margin-top: 2.5rem;
-    }
-    .site-header {
-      background-color: #fffaf2;
-      border-bottom: 2px solid #c00000;
-      padding: 1rem 2rem;
-      margin-bottom: 2rem;
-    }
-    .header-content {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: space-between;
-      align-items: center;
-      gap: 1rem;
-    }
-    .site-logo {
-      height: 64px;
-      max-width: 64px;
-    }
-    .site-nav {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 1rem;
-      align-items: center;
-      font-weight: bold;
-    }
-    .site-nav a {
-      color: #1f2736;
-      text-decoration: none;
-      font-size: 1rem;
-    }
-    .site-nav a:hover {
-      color: #c00000;
-    }
-    .content-wrapper {
-      max-width: 720px;
-      margin: 0 auto;
-      padding: 0 1rem 4rem;
-    }
-    .blog-header {
-      margin-bottom: 3rem;
-    }
-    .blog-header h1 {
-      font-size: 2.5rem;
-      font-weight: 800;
-      color: #a00000;
-      margin-bottom: 0.5rem;
-    }
-    .blog-header p {
-      font-size: 1rem;
-      color: #444;
-    }
-    .blog-navigation {
-      margin-top: 3rem;
-      display: flex;
-      justify-content: space-between;
-      flex-wrap: wrap;
-      gap: 1rem;
-    }
-    .button {
-      padding: 1rem 1.5rem;
-      border: 2px solid #c00000;
-      border-radius: 999px;
-      font-weight: bold;
-      text-decoration: none;
-      display: inline-block;
-      font-size: 1rem;
-      background: transparent;
-      color: #c00000;
-    }
-    .button:hover {
-      background: #c00000;
-      color: white;
-    }
-    .red-pill-button {
-      padding: 1rem 1.5rem;
-      border: 2px solid #c00000;
-      border-radius: 999px;
-      font-weight: bold;
-      text-decoration: none;
-      font-size: 1rem;
-      background: #c00000;
-      color: white;
-      display: inline-block;
-    }
-    .red-pill-button:hover {
-      background: #a00000;
-      border-color: #a00000;
-    }
-  </style>
+  <title>{{ page.title }}</title>
+  <link rel="stylesheet" href="{{ site.baseurl }}/assets/styles.css" />
 </head>
 <body>
-  <header class="site-header">
-    <div class="header-content">
-      <a href="https://www.submitrelentlessly.org">
-        <img src="https://images.squarespace-cdn.com/content/680f9a0e609678126af6e639/c354c2d7-5f09-4c52-9ac6-ea6af8021945/Badge+Logos+with+Pen+Nib+Icons.jpg" alt="Submit Relentlessly Logo" class="site-logo" />
-      </a>
-      <nav class="site-nav">
-        <a href="https://www.submitrelentlessly.org/browse-reform-categories">🔍 Explore Reforms</a>
-        <a href="https://www.submitrelentlessly.org/fieldguide">💪 How-To & Tools</a>
-        <a href="https://www.submitrelentlessly.org/-manifesto">⚙️ How It Works</a>
-        <a href="https://complianceliaison.github.io/submitrelentlessly-blog/" style="text-decoration: underline;">📣 Blog</a>
-        <a href="https://www.submitrelentlessly.org/about">ℹ️ About</a>
-      </nav>
-      <a href="https://www.submitrelentlessly.org/sortable-index" class="red-pill-button">Submit Relentlessly</a>
-    </div>
-  </header>
 
-  <div class="content-wrapper">
-    <article class="blog-header">
-      <h1>Oligarchs Hate This One Weird Trick: Reform #4 Will Leave CEOs Crying in Their Golden Parachutes</h1>
-      <p><em>Written by Compliance Liaison · May 5, 2025</em></p>
-    </article>
+{% include header.html %}
 
-    <p>We added 14 new entries to our growing reform library—targeting stealth consolidations, regulatory sabotage, ancestral land injustice, and more. Here’s what’s new:</p>
+<main class="content-wrapper">
+  <article class="blog-header">
+    <h1>{{ page.title }}</h1>
+    <p><em>{{ page.date | date: "%B %-d, %Y" }}</em></p>
+  </article>
 
-    <ul>
-      <li><a href="https://www.submitrelentlessly.org/civil-liberties/alien-enemies-act">Rescind the Alien Enemies Act</a></li>
-      <li><a href="https://www.submitrelentlessly.org/economic-equity/foreign-investment-loopholes">Rescind Foreign Investment Loopholes</a></li>
-      <li><a href="https://www.submitrelentlessly.org/environmental-justice/public-lands">Stop the Sale of Public Lands</a></li>
-      <li><a href="https://www.submitrelentlessly.org/economic-equity/stealth-acquisitions">Prevent Stealth Acquisitions (think Twitter deal)</a></li>
-      <li><a href="https://www.submitrelentlessly.org/health-care/streamlining-performance-reporting">Eliminate Redundant Grant Reporting Requirements</a></li>
-      <li><a href="https://www.submitrelentlessly.org/health-care/excepted-service-emergency-pay-band">Hiring and Staffing of HHS</a></li>
-      <li><a href="https://www.submitrelentlessly.org/health-care/realign-regional-operations">Modernize Public Health Infrastructure</a></li>
-      <li><a href="https://www.submitrelentlessly.org/health-care/consolidate-rulemaking-procedures">Get FDA Rules Approved Faster… Not Slower</a></li>
-      <li><a href="https://www.submitrelentlessly.org/health-care/revise-premerger-notification">Prevent Hospital Merger Loopholes</a></li>
-      <li><a href="https://www.submitrelentlessly.org/health-care/rethink-vertical-ownership">Limit Physician Self-Referrals</a></li>
-      <li><a href="https://www.submitrelentlessly.org/health-care/rescind-confidentiality-allowances">Restore Patient Right-to-Know Hospital Prices</a></li>
-      <li><a href="https://www.submitrelentlessly.org/environmental-justice/repatriate-ancestral-lands">Repatriate Ancestral Lands</a></li>
-      <li><a href="https://www.submitrelentlessly.org/oversight/rescind-meta-oversight-authority">END DOGE: Rescind Meta-Oversight Authority</a> (This one is a lot of fun. Highly recommended.)</li>
-    </ul>
+  <!-- Begin post content -->
+  <h1>Oligarchs Hate This One Weird Trick: Reform #4 Will Leave CEOs Crying in Their Golden Parachutes</h1>
+  <p><em>Written by Compliance Liaison · May 5, 2025</em></p>
 
-    <p><strong>🗂️ And we added 3 new categories:</strong></p>
-    <ul>
-      <li><a href="https://www.submitrelentlessly.org/health-care">Healthcare & Public Health</a></li>
-      <li><a href="https://www.submitrelentlessly.org/environmental-justice">Environmental Justice</a></li>
-      <li><a href="https://www.submitrelentlessly.org/oversight">Government Oversight & Transparency</a></li>
-    </ul>
+  <p>We added 14 new entries to our growing reform library—targeting stealth consolidations, regulatory sabotage, ancestral land injustice, and more. Here’s what’s new:</p>
 
-    <p>This puts us at <strong>36 public-benefit deregulation submissions</strong> so far, with over 40 more waiting in the wings.</p>
+  <ul>
+    <li><a href="https://www.submitrelentlessly.org/civil-liberties/alien-enemies-act">Rescind the Alien Enemies Act</a></li>
+    <li><a href="https://www.submitrelentlessly.org/economic-equity/foreign-investment-loopholes">Rescind Foreign Investment Loopholes</a></li>
+    <li><a href="https://www.submitrelentlessly.org/environmental-justice/public-lands">Stop the Sale of Public Lands</a></li>
+    <li><a href="https://www.submitrelentlessly.org/economic-equity/stealth-acquisitions">Prevent Stealth Acquisitions (think Twitter deal)</a></li>
+    <li><a href="https://www.submitrelentlessly.org/health-care/streamlining-performance-reporting">Eliminate Redundant Grant Reporting Requirements</a></li>
+    <li><a href="https://www.submitrelentlessly.org/health-care/excepted-service-emergency-pay-band">Hiring and Staffing of HHS</a></li>
+    <li><a href="https://www.submitrelentlessly.org/health-care/realign-regional-operations">Modernize Public Health Infrastructure</a></li>
+    <li><a href="https://www.submitrelentlessly.org/health-care/consolidate-rulemaking-procedures">Get FDA Rules Approved Faster… Not Slower</a></li>
+    <li><a href="https://www.submitrelentlessly.org/health-care/revise-premerger-notification">Prevent Hospital Merger Loopholes</a></li>
+    <li><a href="https://www.submitrelentlessly.org/health-care/rethink-vertical-ownership">Limit Physician Self-Referrals</a></li>
+    <li><a href="https://www.submitrelentlessly.org/health-care/rescind-confidentiality-allowances">Restore Patient Right-to-Know Hospital Prices</a></li>
+    <li><a href="https://www.submitrelentlessly.org/environmental-justice/repatriate-ancestral-lands">Repatriate Ancestral Lands</a></li>
+    <li><a href="https://www.submitrelentlessly.org/oversight/rescind-meta-oversight-authority">END DOGE: Rescind Meta-Oversight Authority</a> (This one is a lot of fun. Highly recommended.)</li>
+  </ul>
 
-    <p>🔗 <a href="https://www.submitrelentlessly.org/sortable-index">Browse All of the Pre-Written, Ready-to-Copy Submissions</a><br>
-       🗳️ <a href="https://www.submitrelentlessly.org/contact">Submit Your Own Suggestion</a></p>
+  <p><strong>🗂️ And we added 3 new categories:</strong></p>
+  <ul>
+    <li><a href="https://www.submitrelentlessly.org/health-care">Healthcare & Public Health</a></li>
+    <li><a href="https://www.submitrelentlessly.org/environmental-justice">Environmental Justice</a></li>
+    <li><a href="https://www.submitrelentlessly.org/oversight">Government Oversight & Transparency</a></li>
+  </ul>
 
-    <p>Every one of these is a rejection of status-quo neglect and a blueprint for what comes next.</p>
+  <p>This puts us at <strong>36 public-benefit deregulation submissions</strong> so far, with over 40 more waiting in the wings.</p>
 
-    <p><strong>Read them. Share them. Submit relentlessly.</strong></p>
+  <p>🔗 <a href="https://www.submitrelentlessly.org/sortable-index">Browse All of the Pre-Written, Ready-to-Copy Submissions</a><br>
+     🗳️ <a href="https://www.submitrelentlessly.org/contact">Submit Your Own Suggestion</a></p>
 
-    <p>#DeregulateResponsibly<br>
-       #FederalRegister<br>
-       #SubmitRelentlessly<br>
-       #RedTapeRebellion</p>
+  <p>Every one of these is a rejection of status-quo neglect and a blueprint for what comes next.</p>
 
-    <p>- Compliance Liaison, Department of Deregulation</p>
+  <p><strong>Read them. Share them. Submit relentlessly.</strong></p>
 
-    <nav class="blog-navigation">
-      <a href="./still-relentless.html" class="button">⬅️ Previous Post</a>
-      <a href="./Bulletins.html" class="button">🗂 Back to All Blogs</a>
-      <a href="./11-new-entries.html" class="button">Next Post ➡️</a>
-    
-    </nav>
-    <div style="display: flex; flex-wrap: wrap; gap: 1rem; justify-content: center; margin-top: 2rem;">
-  <img src="https://images.squarespace-cdn.com/content/680f9a0e609678126af6e639/1746505756497-ZG41GYMUVY8LGHGKG7XD/regulatory+resistance+1.jpg?content-type=image%2Fjpeg"
-       alt="Regulatory Resistance Poster 1"
-       style="width: 100%; max-width: 160px; border-radius: 8px;" />
-  <img src="https://images.squarespace-cdn.com/content/680f9a0e609678126af6e639/1746506448674-LUHO14LQ2GS1HR5ZAS2F/Regulatory+Resistance+4.jpg?content-type=image%2Fjpeg"
-       alt="Regulatory Resistance Poster 4"
-       style="width: 100%; max-width: 160px; border-radius: 8px;" />
-  <img src="https://images.squarespace-cdn.com/content/680f9a0e609678126af6e639/65228c80-e201-43fd-a945-6a95c3fffb10/Join+the+resistance+11.jpg?content-type=image%2Fjpeg"
-       alt="Join the Resistance Poster"
-       style="width: 100%; max-width: 160px; border-radius: 8px;" />
-  <img src="https://images.squarespace-cdn.com/content/680f9a0e609678126af6e639/1746505760743-FXNLK9QJ9Z241JG30435/Regulatory+Resistance+8.jpg?content-type=image%2Fjpeg"
-       alt="Regulatory Resistance Poster 8"
-       style="width: 100%; max-width: 160px; border-radius: 8px;" />
+  <p>#DeregulateResponsibly<br>
+     #FederalRegister<br>
+     #SubmitRelentlessly<br>
+     #RedTapeRebellion</p>
+
+  <p>- Compliance Liaison, Department of Deregulation</p>
+
+  <nav class="blog-navigation">
+    <a href="{{ site.baseurl }}/blog/still-relentless.html" class="button">⬅️ Previous Post</a>
+    <a href="{{ site.baseurl }}/blog/Bulletins.html" class="button">🗂 Back to All Blogs</a>
+    <a href="{{ site.baseurl }}/blog/11-new-entries.html" class="button">Next Post ➡️</a>
+  </nav>
+
+  <div style="display: flex; flex-wrap: wrap; gap: 1rem; justify-content: center; margin-top: 2rem;">
+    <img src="https://images.squarespace-cdn.com/content/680f9a0e609678126af6e639/1746505756497-ZG41GYMUVY8LGHGKG7XD/regulatory+resistance+1.jpg?content-type=image%2Fjpeg"
+         alt="Regulatory Resistance Poster 1"
+         style="width: 100%; max-width: 160px; border-radius: 8px;" />
+    <img src="https://images.squarespace-cdn.com/content/680f9a0e609678126af6e639/1746506448674-LUHO14LQ2GS1HR5ZAS2F/Regulatory+Resistance+4.jpg?content-type=image%2Fjpeg"
+         alt="Regulatory Resistance Poster 4"
+         style="width: 100%; max-width: 160px; border-radius: 8px;" />
+    <img src="https://images.squarespace-cdn.com/content/680f9a0e609678126af6e639/65228c80-e201-43fd-a945-6a95c3fffb10/Join+the+resistance+11.jpg?content-type=image%2Fjpeg"
+         alt="Join the Resistance Poster"
+         style="width: 100%; max-width: 160px; border-radius: 8px;" />
+    <img src="https://images.squarespace-cdn.com/content/680f9a0e609678126af6e639/1746505760743-FXNLK9QJ9Z241JG30435/Regulatory+Resistance+8.jpg?content-type=image%2Fjpeg"
+         alt="Regulatory Resistance Poster 8"
+         style="width: 100%; max-width: 160px; border-radius: 8px;" />
   </div>
+  <!-- End post content -->
+</main>
 
-  </div>
+{% include footer.html %}
 
-  <footer class="site-footer">
-    <p class="footer-tagline"><strong>We respect your privacy like it’s the last functional branch of government.</strong></p>
-    <h1 class="footer-title">SUBMIT RELENTLESSLY.</h1>
-    <p class="footer-contact">
-      <a href="mailto:submitrelentlessly@gmail.com">submitrelentlessly@gmail.com</a> · 
-      <a href="https://bsky.social" target="_blank" rel="noopener">bsky.social</a>
-    </p>
-    <nav class="footer-links">
-      <a href="https://www.submitrelentlessly.org/privacy-terms-of-service">Privacy Policy</a>
-      <a href="https://www.submitrelentlessly.org/privacy-terms-of-service">Terms of Service</a>
-      <span>Cookie Preferences</span>
-    </nav>
-  </footer>
 </body>
 </html>
