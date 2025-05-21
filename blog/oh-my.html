@@ -1,171 +1,72 @@
+---
+layout: none
+---
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Education, Environment, and Climate Justice…Oh My!</title>
-  <style>
-    body {
-      font-family: system-ui, sans-serif;
-      line-height: 1.6;
-      margin: 0;
-      padding: 0;
-      color: #1f2736;
-      background-color: #fffaf2;
-    }
-    .content-wrapper {
-      max-width: 720px;
-      margin: 0 auto;
-      padding: 2rem 1rem 4rem;
-    }
-    h1 {
-      font-size: 2.5rem;
-      font-weight: 800;
-      color: #a00000;
-      margin-bottom: 0.5rem;
-    }
-    .blog-header p {
-      font-size: 1rem;
-      color: #444;
-    }
-    ul {
-      padding-left: 1.5rem;
-    }
-    a {
-      color: #c00000;
-      text-decoration: none;
-    }
-    .blog-navigation {
-      margin-top: 3rem;
-      display: flex;
-      justify-content: space-between;
-      flex-wrap: wrap;
-      gap: 1rem;
-    }
-    .button {
-      padding: 1rem 1.5rem;
-      border: 2px solid #c00000;
-      border-radius: 999px;
-      font-weight: bold;
-      text-decoration: none;
-      font-size: 1rem;
-      background: transparent;
-      color: #c00000;
-    }
-    .button:hover {
-      background: #c00000;
-      color: white;
-    }
-    .site-footer {
-      text-align: center;
-      padding: 4rem 1rem 2rem;
-      background-color: #fffaf2;
-      font-family: system-ui, sans-serif;
-    }
-    .footer-tagline {
-      color: #1f2736;
-      font-size: 1rem;
-      margin-bottom: 1rem;
-    }
-    .footer-title {
-      font-size: 2.75rem;
-      font-weight: 800;
-      margin: 0.5rem 0 1rem;
-      letter-spacing: -0.03em;
-    }
-    .footer-contact {
-      color: #c00000;
-      font-size: 1rem;
-      margin-bottom: 2rem;
-    }
-    .footer-contact a {
-      color: #c00000;
-      text-decoration: none;
-    }
-    .footer-contact a:hover {
-      text-decoration: underline;
-    }
-    .footer-links {
-      display: flex;
-      justify-content: center;
-      gap: 2rem;
-      flex-wrap: wrap;
-      font-size: 0.9rem;
-      color: #555;
-    }
-    .footer-links a {
-      color: #999;
-      text-decoration: none;
-    }
-    .footer-links a:hover {
-      text-decoration: underline;
-      color: #1f2736;
-    }
-  </style>
+  <title>{{ page.title }}</title>
+  <link rel="stylesheet" href="{{ site.baseurl }}/assets/styles.css" />
 </head>
 <body>
-  <div class="content-wrapper">
-    <article class="blog-header">
-      <h1>Education, Environment, and Climate Justice…Oh My!</h1>
-      <p><em>Written by Compliance Liaison · May 15, 2025</em></p>
-    </article>
 
-    <p>🔥 <strong>11 More Submissions Just Dropped</strong> 🔥<br>
-    Public dollars should serve students and the planet—not private profiteers.</p>
+{% include header.html %}
 
-    <h3>🏫 Education & Curriculum Access</h3>
-    <ul>
-      <li><a href="https://www.submitrelentlessly.org/education/fund-public-schools">Stop Draining Public Schools to Fund Private Operators</a></li>
-      <li><a href="https://www.submitrelentlessly.org/education/scam-colleges">Stop Scam Colleges and Protect Student Borrowers</a></li>
-      <li><a href="https://www.submitrelentlessly.org/education/spend-on-students">Let Schools Spend More on Students, Not Red Tape</a></li>
-      <li><a href="https://www.submitrelentlessly.org/education/student-loans">Streamline Student Loan Forgiveness and Expand Eligibility</a></li>
-      <li><a href="https://www.submitrelentlessly.org/education/crt-science">Ensure Schools Teach the Truth About Science and Social Justice</a></li>
-      <li><a href="https://www.submitrelentlessly.org/education/indoctrination">Prevent Religious Schools from Receiving Federal Funding</a></li>
-    </ul>
+<main class="content-wrapper">
+  <article class="blog-header">
+    <h1>Education, Environment, and Climate Justice…Oh My!</h1>
+    <p><em>Written by Compliance Liaison · May 15, 2025</em></p>
+  </article>
 
-    <h3>🌎 Climate & Environmental Action</h3>
-    <ul>
-      <li><a href="https://www.submitrelentlessly.org/environment/strengthen-epa">Rescind Rules Weakening Air, Water, and Habitat Standards</a></li>
-      <li><a href="https://www.submitrelentlessly.org/environment/climate-accountability">Rescind Loopholes Shielding Fossil Fuel Industries from Climate Accountability</a></li>
-      <li><a href="https://www.submitrelentlessly.org/environment/rigged-markets">Rescind Subsidies and Regulatory Protections That Rig Energy Markets</a></li>
-      <li><a href="https://www.submitrelentlessly.org/environment/pollution-exemptions">Rescind Pollution Exemptions</a></li>
-      <li><a href="https://www.submitrelentlessly.org/environmental-justice/pollution-zoning">No Fast-Track for Cities That Zone Low-Income Families into Pollution</a></li>
-    </ul>
+  <!-- Begin post content -->
+  <p>🔥 <strong>11 More Submissions Just Dropped</strong> 🔥<br>
+  Public dollars should serve students and the planet—not private profiteers.</p>
 
-    <p>💥 Want clean water, honest schools, and a planet your kids can live on?<br>
-    Then speak up. It’s time to Submit Relentlessly.</p>
+  <h3>🏫 Education & Curriculum Access</h3>
+  <ul>
+    <li><a href="https://www.submitrelentlessly.org/education/fund-public-schools">Stop Draining Public Schools to Fund Private Operators</a></li>
+    <li><a href="https://www.submitrelentlessly.org/education/scam-colleges">Stop Scam Colleges and Protect Student Borrowers</a></li>
+    <li><a href="https://www.submitrelentlessly.org/education/spend-on-students">Let Schools Spend More on Students, Not Red Tape</a></li>
+    <li><a href="https://www.submitrelentlessly.org/education/student-loans">Streamline Student Loan Forgiveness and Expand Eligibility</a></li>
+    <li><a href="https://www.submitrelentlessly.org/education/crt-science">Ensure Schools Teach the Truth About Science and Social Justice</a></li>
+    <li><a href="https://www.submitrelentlessly.org/education/indoctrination">Prevent Religious Schools from Receiving Federal Funding</a></li>
+  </ul>
 
-    <p>#DeregulateResponsibly<br>
-    #SubmitRelentlessly<br>
-    #EnvironmentalJustice<br>
-    #EdReform<br>
-    #CleanAirCleanWater</p>
+  <h3>🌎 Climate & Environmental Action</h3>
+  <ul>
+    <li><a href="https://www.submitrelentlessly.org/environment/strengthen-epa">Rescind Rules Weakening Air, Water, and Habitat Standards</a></li>
+    <li><a href="https://www.submitrelentlessly.org/environment/climate-accountability">Rescind Loopholes Shielding Fossil Fuel Industries from Climate Accountability</a></li>
+    <li><a href="https://www.submitrelentlessly.org/environment/rigged-markets">Rescind Subsidies and Regulatory Protections That Rig Energy Markets</a></li>
+    <li><a href="https://www.submitrelentlessly.org/environment/pollution-exemptions">Rescind Pollution Exemptions</a></li>
+    <li><a href="https://www.submitrelentlessly.org/environmental-justice/pollution-zoning">No Fast-Track for Cities That Zone Low-Income Families into Pollution</a></li>
+  </ul>
 
-    <p>- Compliance Liaison, Department of Deregulation</p>
+  <p>💥 Want clean water, honest schools, and a planet your kids can live on?<br>
+  Then speak up. It’s time to Submit Relentlessly.</p>
 
-    <img src="https://images.squarespace-cdn.com/content/680f9a0e609678126af6e639/59f8a06d-f80f-4593-a8a1-36cd2b52dfbc/WAKE+UP+2.jpg?content-type=image%2Fjpeg"
-         alt="Wake Up Regulatory Poster"
-         style="width: 100%; max-width: 680px; margin-top: 2rem; border-radius: 8px;" />
+  <p>#DeregulateResponsibly<br>
+  #SubmitRelentlessly<br>
+  #EnvironmentalJustice<br>
+  #EdReform<br>
+  #CleanAirCleanWater</p>
 
-    <nav class="blog-navigation">
-      <a href="./raise-wages.html" class="button">⬅️ Previous Post</a>
-      <a href="./Bulletins.html" class="button">🗂 Back to All Blogs</a>
-      <a href="./lattes.html" class="button">Next Post ➡️</a>
-    </nav>
-  </div>
+  <p>- Compliance Liaison, Department of Deregulation</p>
 
-  <footer class="site-footer">
-    <p class="footer-tagline"><strong>We respect your privacy like it’s the last functional branch of government.</strong></p>
-    <h1 class="footer-title">SUBMIT RELENTLESSLY.</h1>
-    <p class="footer-contact">
-      <a href="mailto:submitrelentlessly@gmail.com">submitrelentlessly@gmail.com</a> · 
-      <a href="https://bsky.social" target="_blank" rel="noopener">bsky.social</a>
-    </p>
-    <nav class="footer-links">
-      <a href="https://www.submitrelentlessly.org/privacy-terms-of-service">Privacy Policy</a>
-      <a href="https://www.submitrelentlessly.org/privacy-terms-of-service">Terms of Service</a>
-      <span>Cookie Preferences</span>
-    </nav>
-  </footer>
+  <img src="https://images.squarespace-cdn.com/content/680f9a0e609678126af6e639/59f8a06d-f80f-4593-a8a1-36cd2b52dfbc/WAKE+UP+2.jpg?content-type=image%2Fjpeg"
+       alt="Wake Up Regulatory Poster"
+       style="width: 100%; max-width: 680px; margin-top: 2rem; border-radius: 8px;" />
+
+  <nav class="blog-navigation">
+    <a href="{{ site.baseurl }}/blog/raise-wages.html" class="button">⬅️ Previous Post</a>
+    <a href="{{ site.baseurl }}/blog/Bulletins.html" class="button">🗂 Back to All Blogs</a>
+    <a href="{{ site.baseurl }}/blog/lattes.html" class="button">Next Post ➡️</a>
+  </nav>
+  <!-- End post content -->
+</main>
+
+{% include footer.html %}
+
 </body>
 </html>
