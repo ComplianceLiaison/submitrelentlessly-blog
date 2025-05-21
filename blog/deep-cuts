@@ -1,0 +1,88 @@
+---
+layout: none
+---
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>New Submissions Just Dropped—And They Cut Deep</title>
+  <link rel="stylesheet" href="{{ site.baseurl }}/assets/styles.css" />
+</head>
+<body>
+
+{% include header.html %}
+
+<main class="content-wrapper">
+  <article class="blog-header">
+    <h1>New Submissions Just Dropped—And They Cut Deep</h1>
+    <p><em>Written by Compliance Liaison · May 21, 2025</em></p>
+  </article>
+
+  <!-- Begin post content -->
+  <p><h2>🧹 Fire the Officials Who Betray the Constitution</h2></p>
+<p><p></p>
+<p>Sometimes it’s not enough to vote them out. Some appointees obstruct lawful transitions of power.</p>
+<p>Some ignore court orders. Some sabotage investigations or suppress urgent warnings.</p>
+<p></p></p>
+<p><p></p>
+<p>And yet—they stay in office. Why? Because the Senior Executive Service (SES) protections that were</p>
+<p>designed to insulate federal leadership from political whims now serve as a shield for egregious misconduct.</p>
+<p></p></p>
+<p><p></p>
+<p>📝 <strong><a href="/oversight/firethem">Submit: Enable Removal of High-Ranking Officials for Constitutional Violations</a></strong><br></p>
+<p>aka—<em>Fire the Deep State Traitors</em><br></p>
+<p>This reform adds a narrow exception for expedited removal of SES officials when credible findings show they</p>
+<p>violated constitutional duties. It protects whistleblowers and civil servants—and ensures bad actors don’t get a golden parachute.</p>
+<p></p></p>
+<p><h2>💸 Close the Capital Gains Loopholes and Fund Public Care</h2></p>
+<p><p></p>
+<p>Every time you hear “we can’t afford Medicare expansion” or “Medicaid is unsustainable,” remember this:</p>
+<p>we spend far more on tax breaks for billionaires than we do on public health.</p>
+<p></p></p>
+<p><p></p>
+<p>📝 <strong><a href="/health-care/fund-medicaid">Submit: Close Capital Gains Loopholes to Fund Medicare & Medicaid</a></strong><br></p>
+<p>aka—<em>End Bureaucratic Waste in Tax Expenditures</em><br></p>
+<p>This proposal eliminates tax timing tricks and carve-outs that let the wealthy defer or avoid paying their fair share.</p>
+<p>It doesn’t just raise revenue—it restores fairness, and creates the fiscal space to strengthen the safety net we’re told we can’t afford.</p>
+<p></p></p>
+<p><h2>🚨 Make FEMA Aid Fair Again</h2></p>
+<p><p></p>
+<p>Disaster relief is supposed to be fast, equitable, and needs-based. In reality? FEMA’s discretionary process</p>
+<p>favors wealthy zip codes, penalizes renters, and leaves already-marginalized communities in ruin.</p>
+<p></p></p>
+<p><p></p>
+<p>📝 <strong><a href="/oversight/femafunding">Submit: Restore Equitable Access to Federal Disaster Relief Funds</a></strong><br></p>
+<p>aka—<em>Eliminate FEMA’s Discretionary Red Tape</em><br></p>
+<p>This reform cuts the administrative “flexibility” that lets disaster aid mirror redlining maps.</p>
+<p>It replaces opaque criteria with clear, equitable distribution rules—and demands accountability for how recovery funds are awarded.</p>
+<p></p></p>
+<p><h2>📢 Take 3 Minutes. Submit All 3.</h2></p>
+<p><p></p>
+<p>Every entry is written, cited, and ready to go. All you have to do is copy, paste, and click submit.</p>
+<p>These aren’t theoretical reforms. They’re real policy actions the government <em>invited you</em> to propose.</p>
+<p></p></p>
+<p><p></p>
+<p>👇<br></p>
+<p><a href="https://www.submitrelentlessly.org/sortable-index" class="red-pill-button">Explore All Current Reform Proposals</a><br><br></p>
+<p><a href="https://www.regulations.gov/" class="red-pill-button">Submit Now via Regulations.gov</a></p>
+<p></p></p>
+<p><div class="hashtag-line"></p>
+<p>#DeregulateResponsibly #SubmitRelentlessly #PublicHealth #GovTransparency #EconomicJustice</p>
+<p></div></p>
+  
+  <img src="https://drive.google.com/open?id=1QWOQoDX3ncB_UYh2h6O6kiM_xh3UXqqv" alt="New Submissions Just Dropped—And They Cut Deep thumbnail" style="width:100%;margin:2rem 0;border-radius:8px;"/>
+  <!-- End post content -->
+
+  <nav class="blog-navigation">
+    <a href="{{ site.baseurl }}/blog/this-was-built.html.html" class="button">⬅️ Previous Post</a>
+    <a href="{{ site.baseurl }}/blog/Bulletins.html" class="button">🗂 Back to All Blogs</a>
+    <a href="{{ site.baseurl }}/blog/thefuture.html" class="button">Next Post ➡️</a>
+  </nav>
+</main>
+
+{% include footer.html %}
+
+</body>
+</html>
