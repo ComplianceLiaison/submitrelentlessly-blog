@@ -1,193 +1,73 @@
+---
+layout: none
+---
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>The Manifesto</title>
-  <link rel="stylesheet" href="/styles.css" />
-  <style>
-    .site-header {
-      background-color: #fffaf2;
-      border-bottom: 2px solid #c00000;
-      padding: 1rem 2rem;
-      margin-bottom: 2rem;
-    }
-    .header-content {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: space-between;
-      align-items: center;
-      gap: 1rem;
-    }
-    .site-logo {
-      height: 64px;
-      max-width: 64px;
-    }
-    .site-nav {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 1rem;
-      align-items: center;
-      font-weight: bold;
-    }
-    .site-nav a {
-      color: #1f2736;
-      text-decoration: none;
-      font-size: 1rem;
-    }
-    .site-nav a:hover {
-      color: #c00000;
-    }
-    body {
-      font-family: system-ui, sans-serif;
-      line-height: 1.6;
-      margin: 0;
-      padding: 0;
-      color: #1f2736;
-      background-color: #fffaf2;
-    }
-    h1, h2, h3 {
-      color: #a00000;
-      margin-top: 2.5rem;
-    }
-    .content-wrapper {
-      max-width: 720px;
-      margin: 0 auto;
-      padding: 0 1rem 4rem;
-    }
-    .blog-header {
-      margin-bottom: 3rem;
-    }
-    .blog-header h1 {
-      font-size: 2.5rem;
-      font-weight: 800;
-      color: #a00000;
-      margin-bottom: 0.5rem;
-    }
-    .blog-header p {
-      font-size: 1rem;
-      color: #444;
-    }
-    .blog-navigation {
-      margin-top: 3rem;
-      display: flex;
-      justify-content: space-between;
-      flex-wrap: wrap;
-      gap: 1rem;
-    }
-    .button {
-      padding: 1rem 1.5rem;
-      border: 2px solid #c00000;
-      border-radius: 999px;
-      font-weight: bold;
-      text-decoration: none;
-      display: inline-block;
-      font-size: 1rem;
-      background: transparent;
-      color: #c00000;
-    }
-    .button:hover {
-      background: #c00000;
-      color: white;
-    }
-    .red-pill-button {
-      padding: 1rem 1.5rem;
-      border: 2px solid #c00000;
-      border-radius: 999px;
-      font-weight: bold;
-      text-decoration: none;
-      font-size: 1rem;
-      background: #c00000;
-      color: white;
-      display: inline-block;
-    }
-    .red-pill-button:hover {
-      background: #a00000;
-      border-color: #a00000;
-    }
-  </style>
+  <title>{{ page.title }}</title>
+  <link rel="stylesheet" href="{{ site.baseurl }}/assets/styles.css" />
 </head>
 <body>
-  <header class="site-header">
-    <div class="header-content">
-      <a href="https://www.submitrelentlessly.org">
-        <img src="https://images.squarespace-cdn.com/content/680f9a0e609678126af6e639/c354c2d7-5f09-4c52-9ac6-ea6af8021945/Badge+Logos+with+Pen+Nib+Icons.jpg?content-type=image%2Fjpeg" alt="Submit Relentlessly Logo" class="site-logo" />
-      </a>
-      <nav class="site-nav">
-        <a href="https://www.submitrelentlessly.org/browse-reform-categories">🔍 Explore Reforms</a>
-        <a href="https://www.submitrelentlessly.org/fieldguide">💪 How-To & Tools</a>
-        <a href="https://www.submitrelentlessly.org/-manifesto">⚙️ How It Works</a>
-        <a href="https://complianceliaison.github.io/submitrelentlessly-blog/" style="text-decoration: underline;">📣 Blog</a>
-        <a href="https://www.submitrelentlessly.org/about">ℹ️ About</a>
-      </nav>
-      <a href="https://www.submitrelentlessly.org/sortable-index" class="red-pill-button">Submit Relentlessly</a>
-    </div>
-  </header>
 
-  <div class="content-wrapper">
-   <article class="blog-header">
-  <h1>The Manifesto</h1>
-  <p><em>Written by Compliance Liaison · 28 April 2025</em></p>
-</article>
+{% include header.html %}
 
-<img src="https://images.squarespace-cdn.com/content/680f9a0e609678126af6e639/cfe7b637-aaec-4c10-9bee-8b8c8f25c322/Submit+relentlessly.jpg?content-type=image%2Fjpeg" 
-     alt="Submit Relentlessly banner with red, black, and white visual" 
-     style="width: 100%; max-width: 100%; margin: 2rem 0; border-radius: 8px;" />
+<main class="content-wrapper">
+  <article class="blog-header">
+    <h1>{{ page.title }}</h1>
+    <p><em>{{ page.date | date: "%B %-d, %Y" }}</em></p>
+  </article>
 
+  <!-- Begin post content -->
+  <img src="https://images.squarespace-cdn.com/content/680f9a0e609678126af6e639/cfe7b637-aaec-4c10-9bee-8b8c8f25c322/Submit+relentlessly.jpg?content-type=image%2Fjpeg" 
+       alt="Submit Relentlessly banner with red, black, and white visual" 
+       style="width: 100%; max-width: 100%; margin: 2rem 0; border-radius: 8px;" />
 
-    <p><strong>Submit the paperwork. Never yourself.</strong></p>
-    <p>We didn’t set out to build a movement. We set out to find a way to act.</p>
-    <p>Too much of what passes for civic engagement today is either performance, delay, or capitulation.</p>
-    <p>The structures of governance that once served the public good have been bent into systems of protection—but not for the public.</p>
-    <p>Waiting for systemic reform has proven to be a failed strategy.</p>
-    <p>We are choosing a different path: seize the mechanism itself.</p>
+  <p><strong>Submit the paperwork. Never yourself.</strong></p>
+  <p>We didn’t set out to build a movement. We set out to find a way to act.</p>
+  <p>Too much of what passes for civic engagement today is either performance, delay, or capitulation.</p>
+  <p>The structures of governance that once served the public good have been bent into systems of protection—but not for the public.</p>
+  <p>Waiting for systemic reform has proven to be a failed strategy.</p>
+  <p>We are choosing a different path: seize the mechanism itself.</p>
 
-    <h3>Formal Resistance, Malicious Compliance</h3>
-    <p>Where others lobby for deregulation to weaken public protections, we file deregulation suggestions that dismantle loopholes built for the elite.</p>
-    <p>Where others sabotage systems with apathy or rage, we comply—maliciously, relentlessly, formally.</p>
-    <p>We do not call for chaos.</p>
-    <p>We call for strategic submission—using administrative portals, feedback mechanisms, and formal comment periods. The goal is not to erode protections but to reinforce them, and to strip privileges from those who built shields for themselves within the system.</p>
+  <h3>Formal Resistance, Malicious Compliance</h3>
+  <p>Where others lobby for deregulation to weaken public protections, we file deregulation suggestions that dismantle loopholes built for the elite.</p>
+  <p>Where others sabotage systems with apathy or rage, we comply—maliciously, relentlessly, formally.</p>
+  <p>We do not call for chaos.</p>
+  <p>We call for strategic submission—using administrative portals, feedback mechanisms, and formal comment periods. The goal is not to erode protections but to reinforce them, and to strip privileges from those who built shields for themselves within the system.</p>
 
-    <h3>Why Compliance is Our Strategy</h3>
-    <p>Compliance is inevitable.</p>
-    <p>It is demanded by every system that pretends to be democratic while funneling power upward.</p>
-    <p>But submission—real submission—is a choice.</p>
-    <p>We refuse.</p>
-    <p>We submit the paperwork.</p>
-    <p>We submit forms, comments, protocols, suggestions.</p>
-    <p>We follow the procedures. We check the boxes.</p>
-    <p>We meet every technicality.</p>
-    <p>And in doing so we break the machine from the inside out.</p>
+  <h3>Why Compliance is Our Strategy</h3>
+  <p>Compliance is inevitable.</p>
+  <p>It is demanded by every system that pretends to be democratic while funneling power upward.</p>
+  <p>But submission—real submission—is a choice.</p>
+  <p>We refuse.</p>
+  <p>We submit the paperwork.</p>
+  <p>We submit forms, comments, protocols, suggestions.</p>
+  <p>We follow the procedures. We check the boxes.</p>
+  <p>We meet every technicality.</p>
+  <p>And in doing so we break the machine from the inside out.</p>
 
-    <h3>The Future Belongs to Those Who File</h3>
-    <p>Change doesn’t start with a speech or a hashtag.</p>
-    <p>It starts with a form.</p>
-    <p>Filed properly. Filed relentlessly.</p>
-    <p>We are not seeking permission.</p>
-    <p>We are seizing the mechanism.</p>
-    <p>We are formalizing resistance.</p>
-    <p>We are bureaucratic aikido.</p>
+  <h3>The Future Belongs to Those Who File</h3>
+  <p>Change doesn’t start with a speech or a hashtag.</p>
+  <p>It starts with a form.</p>
+  <p>Filed properly. Filed relentlessly.</p>
+  <p>We are not seeking permission.</p>
+  <p>We are seizing the mechanism.</p>
+  <p>We are formalizing resistance.</p>
+  <p>We are bureaucratic aikido.</p>
 
-    <p><strong>Submit the paperwork.<br>Never yourself.</strong></p>
+  <p><strong>Submit the paperwork.<br>Never yourself.</strong></p>
 
-    <nav class="blog-navigation">
-      <a href="./Bulletins.html" class="button">🗂 Back to All Blogs</a>
-      <a href="./toolkit-drops-tonight.html" class="button">Next Post ➡️</a>
-    </nav>
-  </div>
+  <nav class="blog-navigation">
+    <a href="{{ site.baseurl }}/blog/Bulletins.html" class="button">🗂 Back to All Blogs</a>
+    <a href="{{ site.baseurl }}/blog/toolkit-drops-tonight.html" class="button">Next Post ➡️</a>
+  </nav>
+  <!-- End post content -->
+</main>
 
-  <footer class="site-footer">
-    <p class="footer-tagline"><strong>We respect your privacy like it’s the last functional branch of government.</strong></p>
-    <h1 class="footer-title">SUBMIT RELENTLESSLY.</h1>
-    <p class="footer-contact">
-      <a href="mailto:submitrelentlessly@gmail.com">submitrelentlessly@gmail.com</a> · 
-      <a href="https://bsky.social" target="_blank" rel="noopener">bsky.social</a>
-    </p>
-    <nav class="footer-links">
-      <a href="https://www.submitrelentlessly.org/privacy-terms-of-service">Privacy Policy</a>
-      <a href="https://www.submitrelentlessly.org/privacy-terms-of-service">Terms of Service</a>
-      <span>Cookie Preferences</span>
-    </nav>
-  </footer>
+{% include footer.html %}
+
 </body>
 </html>
