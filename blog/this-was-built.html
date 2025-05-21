@@ -1,217 +1,76 @@
+---
+layout: none
+---
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>A Better System Is Possible—And Within Reach</title>
-  <link rel="stylesheet" href="https://www.submitrelentlessly.org/styles.css" />
-  <style>
-    body {
-      font-family: system-ui, sans-serif;
-      line-height: 1.6;
-      margin: 0;
-      padding: 0;
-      color: #1f2736;
-      background-color: #fffaf2;
-    }
-    h1, h2, h3 {
-      color: #a00000;
-      margin-top: 2.5rem;
-    }
-    .content-wrapper {
-      max-width: 720px;
-      margin: 0 auto;
-      padding: 0 1rem 4rem;
-    }
-    .button-flex-wrap {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 1rem;
-      margin-top: 2rem;
-      margin-bottom: 2rem;
-    }
-    .button, .red-pill-button {
-      padding: 1rem 1.5rem;
-      border: 2px solid #c00000;
-      border-radius: 999px;
-      font-weight: bold;
-      text-decoration: none;
-      display: inline-block;
-      font-size: 1rem;
-    }
-    .button {
-      background: transparent;
-      color: #c00000;
-    }
-    .button:hover {
-      background: #c00000;
-      color: white;
-    }
-    .red-pill-button {
-      background: #c00000;
-      color: white;
-    }
-    .red-pill-button:hover {
-      background: #a00000;
-      border-color: #a00000;
-    }
-    .site-header {
-      background-color: #fffaf2;
-      border-bottom: 2px solid #c00000;
-      padding: 1rem 2rem;
-      margin-bottom: 2rem;
-    }
-    .header-content {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      flex-wrap: wrap;
-    }
-    .site-logo {
-      height: 64px;
-      max-width: 64px;
-    }
-    .site-nav {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 1rem;
-      align-items: center;
-      font-weight: bold;
-    }
-    .site-nav a {
-      color: #1f2736;
-      text-decoration: none;
-      font-size: 1rem;
-    }
-    .site-nav a:hover {
-      color: #c00000;
-    }
-    .site-footer {
-      text-align: center;
-      padding: 4rem 1rem 2rem;
-      background-color: #fffaf2;
-      font-family: system-ui, sans-serif;
-    }
-    .footer-tagline {
-      color: #1f2736;
-      font-size: 1rem;
-      margin-bottom: 1rem;
-    }
-    .footer-title {
-      font-size: 2.75rem;
-      font-weight: 800;
-      margin: 0.5rem 0 1rem;
-      letter-spacing: -0.03em;
-    }
-    .footer-contact {
-      color: #c00000;
-      font-size: 1rem;
-      margin-bottom: 2rem;
-    }
-    .footer-contact a {
-      color: #c00000;
-      text-decoration: none;
-    }
-    .footer-contact a:hover {
-      text-decoration: underline;
-    }
-    .footer-links {
-      display: flex;
-      justify-content: center;
-      gap: 2rem;
-      flex-wrap: wrap;
-      font-size: 0.9rem;
-      color: #555;
-    }
-    .footer-links a {
-      color: #999;
-      text-decoration: none;
-    }
-    .footer-links a:hover {
-      text-decoration: underline;
-      color: #1f2736;
-    }
-  </style>
+  <title>{{ page.title }}</title>
+  <link rel="stylesheet" href="{{ site.baseurl }}/assets/styles.css" />
 </head>
 <body>
-<header class="site-header">
-  <div class="header-content">
-    <a href="https://www.submitrelentlessly.org">
-      <img src="https://images.squarespace-cdn.com/content/680f9a0e609678126af6e639/c354c2d7-5f09-4c52-9ac6-ea6af8021945/Badge+Logos+with+Pen+Nib+Icons.jpg?content-type=image%2Fjpeg" alt="Submit Relentlessly Logo" class="site-logo" />
-    </a>
-    <nav class="site-nav">
-      <a href="https://www.submitrelentlessly.org/browse-reform-categories">🔍 Explore Reforms</a>
-      <a href="https://www.submitrelentlessly.org/fieldguide">💪 How-To & Tools</a>
-      <a href="https://www.submitrelentlessly.org/-manifesto">⚙️ How It Works</a>
-      <a href="https://complianceliaison.github.io/submitrelentlessly-blog/" style="text-decoration: underline;">📣 Blog</a>
-      <a href="https://www.submitrelentlessly.org/about">ℹ️ About</a>
-    </nav>
-    <a href="https://www.submitrelentlessly.org/sortable-index" class="red-pill-button">Submit Relentlessly</a>
+
+{% include header.html %}
+
+<main class="content-wrapper">
+  <article class="blog-header">
+    <h1>A Better System Is Possible—And Within Reach</h1>
+    <p><em>Written by Compliance Liaison · May 14, 2025</em></p>
+  </article>
+
+  <!-- Begin post content -->
+  <p>They said the system was just broken. That this is how it is. That inequality, debt, burnout—it's just the cost of living free.</p>
+  <p>But here’s the truth:<br><br>What we’re living through didn’t just happen. It was built this way—on purpose, over decades.</p>
+  <hr>
+  <h3>We Had It—and They Took It</h3>
+  <ul>
+    <li>College was tuition-free (or nearly so)</li>
+    <li>One income paid the bills</li>
+    <li>Housing wasn’t speculative bloodsport</li>
+    <li>We taxed the rich, and used that money to build</li>
+    <li>Public schools, science, roads, parks, pensions, and food systems weren’t partisan battlegrounds—they were the point of government</li>
+  </ul>
+  <p>These systems weren’t flawless. But they delivered—and that made them a target.</p>
+  <hr>
+  <h3>When We Started Thriving, They Changed the Rules</h3>
+  <p>As soon as public investment started closing gaps and helping more people thrive, the ones who had the most to lose from fairness started tearing it down.</p>
+  <ul>
+    <li>Tax cuts for the wealthy</li>
+    <li>Deregulation in finance, housing, and healthcare</li>
+    <li>Privatization of everything from prisons to student loans</li>
+    <li>A propaganda machine that taught us to resent each other instead of the people rigging the game</li>
+  </ul>
+  <p>They didn’t shrink government. They just rewired it to serve privilege.</p>
+  <hr>
+  <h3>You’re Not Failing—<u>You’re Being Failed</u></h3>
+  <p>You didn’t do anything wrong.<br>You're not bad at budgeting, bad at being an adult, or bad at time management.</p>
+  <p>You’re navigating a system designed to extract everything from you—your labor, your time, your health, your future—and call it freedom.</p>
+  <hr>
+  <h3>You Don’t Need Permission to Fight Back</h3>
+  <p>You don’t need to be a policy expert to know what’s fair.<br>You don’t need a law degree to call out what’s broken.<br>You just need the courage to name what’s unjust—and the will to push back.</p>
+  <p>We make that part easy. Just open a browser tab. Give it 90 seconds. Submit something that matters.</p>
+  <p>Our campaign makes it possible to fight back with bureaucratic precision.<br>We’re stuffing their deregulation portal with proposals they never expected—ones that dismantle privilege, not protections.</p>
+  <div class="button-flex-wrap">
+    <a href="https://www.submitrelentlessly.org/toolz" class="button">Explore the Timelines</a>
+    <a href="https://www.submitrelentlessly.org/sortable-index" class="red-pill-button">Submit a Reform</a>
   </div>
-</header>
+  <hr>
+  <h3>This system was bent to serve the few.<br><br>
+  <span style="color: #C67728;">But we can fix it—<br><br>
+  <span style="color: #631414;">because we outnumber them, we care, and we have the tools to build something better.</span></span></h3>
+  <p><em>Compliance Liaison, Department of Deregulation</em></p>
+  <!-- End post content -->
 
-<div class="content-wrapper">
-<article class="blog-header" style="margin-bottom: 3rem;">
-  <h1 style="font-size: 2.5rem; font-weight: 800; color: #a00000; margin-bottom: 0.5rem;">
-    A Better System Is Possible—And Within Reach
-  </h1>
-  <p style="font-size: 1rem; color: #444;"><em>Written by Compliance Liaison · May 14, 2025</em></p>
-</article>
-
-<p>They said the system was just broken. That this is how it is. That inequality, debt, burnout—it's just the cost of living free.</p>
-<p>But here’s the truth:<br><br>What we’re living through didn’t just happen. It was built this way—on purpose, over decades.</p>
-<hr>
-<h3>We Had It—and They Took It</h3>
-<ul>
-  <li>College was tuition-free (or nearly so)</li>
-  <li>One income paid the bills</li>
-  <li>Housing wasn’t speculative bloodsport</li>
-  <li>We taxed the rich, and used that money to build</li>
-  <li>Public schools, science, roads, parks, pensions, and food systems weren’t partisan battlegrounds—they were the point of government</li>
-</ul>
-<p>These systems weren’t flawless. But they delivered—and that made them a target.</p>
-<hr>
-<h3>When We Started Thriving, They Changed the Rules</h3>
-<p>As soon as public investment started closing gaps and helping more people thrive, the ones who had the most to lose from fairness started tearing it down.</p>
-<ul>
-  <li>Tax cuts for the wealthy</li>
-  <li>Deregulation in finance, housing, and healthcare</li>
-  <li>Privatization of everything from prisons to student loans</li>
-  <li>A propaganda machine that taught us to resent each other instead of the people rigging the game</li>
-</ul>
-<p>They didn’t shrink government. They just rewired it to serve privilege.</p>
-<hr>
-<h3>You’re Not Failing—<u>You’re Being Failed</u></h3>
-<p>You didn’t do anything wrong.<br>You're not bad at budgeting, bad at being an adult, or bad at time management.</p>
-<p>You’re navigating a system designed to extract everything from you—your labor, your time, your health, your future—and call it freedom.</p>
-<hr>
-<h3>You Don’t Need Permission to Fight Back</h3>
-<p>You don’t need to be a policy expert to know what’s fair.<br>You don’t need a law degree to call out what’s broken.<br>You just need the courage to name what’s unjust—and the will to push back.</p>
-<p>We make that part easy. Just open a browser tab. Give it 90 seconds. Submit something that matters.</p>
-<p>Our campaign makes it possible to fight back with bureaucratic precision.<br>We’re stuffing their deregulation portal with proposals they never expected—ones that dismantle privilege, not protections.</p>
-<div class="button-flex-wrap">
-  <a href="https://www.submitrelentlessly.org/toolz" class="button">Explore the Timelines</a>
-  <a href="https://www.submitrelentlessly.org/sortable-index" class="red-pill-button">Submit a Reform</a>
-</div>
-<hr>
-<h3>This system was bent to serve the few.<br><br>
-<span style="color: #C67728;">But we can fix it—<br><br>
-<span style="color: #631414;">because we outnumber them, we care, and we have the tools to build something better.</span></span></h3>
-<p><em>Compliance Liaison, Department of Deregulation</em></p>
-
-<footer class="site-footer">
-  <p class="footer-tagline"><strong>We respect your privacy like it’s the last functional branch of government.</strong></p>
-  <h1 class="footer-title">SUBMIT RELENTLESSLY.</h1>
-  <p class="footer-contact">
-    <a href="mailto:submitrelentlessly@gmail.com">submitrelentlessly@gmail.com</a> · 
-    <a href="https://bsky.social" target="_blank" rel="noopener">bsky.social</a>
-  </p>
-  <nav class="footer-links">
-    <a href="https://www.submitrelentlessly.org/privacy-terms-of-service">Privacy Policy</a>
-    <a href="https://www.submitrelentlessly.org/privacy-terms-of-service">Terms of Service</a>
-    <span>Cookie Preferences</span>
+  <nav class="blog-navigation">
+    <a href="{{ site.baseurl }}/blog/wont-believe.html" class="button">⬅️ Previous Post</a>
+    <a href="{{ site.baseurl }}/blog/Bulletins.html" class="button">🗂 Back to All Blogs</a>
+    <a href="{{ site.baseurl }}/blog/raise-wages.html" class="button">Next Post ➡️</a>
   </nav>
-</footer>
+</main>
+
+{% include footer.html %}
 
 </body>
 </html>
